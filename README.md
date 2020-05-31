@@ -39,7 +39,7 @@
 	    }
   }]
 
-	dataProvider = new RealGrid.LocalDataProvider();
+  dataProvider = new RealGrid.LocalDataProvider();
   gridView = new RealGrid.GridView("realgrid");
   gridView.setDataSource(dataProvider);
   
